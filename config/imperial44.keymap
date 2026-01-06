@@ -8,6 +8,10 @@
     flavor = "balanced";
 };
 
+&lt {
+    flavor = "balanced";
+};
+
 / {
     behaviors {
         hml: home_row_mod_left {
