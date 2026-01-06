@@ -37,6 +37,7 @@
             hold-trigger-key-positions = <0 1 2 3 4 5 12 13 14 15 16 17 24 25 26 27 28 29 30 38 39 40>;
             hold-trigger-on-release;
         };
+
         mo_tog: behavior_mo_tog {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
@@ -62,10 +63,10 @@
 
         mode {
             bindings = <
-&none      &none           &kp LC(PG_UP)      &kp LC(T)  &kp LC(PAGE_DOWN)      &none                                        &kp PG_UP           &kp HOME             &kp UP        &kp END          &kp DELETE  &kp PRINTSCREEN
-&kt CAPS   &caps_word      &kp LA(LC(LEFT))   &none      &kp LA(LC(RIGHT))      &none                                        &kp PAGE_DOWN       &kp LEFT             &kp DOWN      &kp RIGHT_ARROW  &kp INSERT  &kp ENTER
-&kp LSHFT  &kp KP_NUMLOCK  &kp LC(LS(PG_UP))  &kp LC(W)  &kp LC(LS(PAGE_DOWN))  &none         &none           &none          &kp LA(LEFT_ARROW)  &kp LA(RIGHT_ARROW)  &kp LC(LEFT)  &kp LC(RIGHT)    &kp GRAVE   &kp RIGHT_SHIFT
-                                                         &kp LCTRL              &kp LEFT_ALT  &kp LEFT_GUI    &kp RIGHT_GUI  &kp RIGHT_ALT       &kp RCTRL
+&none      &none           &kp LC(PG_UP)      &kp LC(T)    &kp LC(PAGE_DOWN)      &none                                        &kp PG_UP           &kp HOME             &kp UP        &kp END          &kp DELETE  &kp PRINTSCREEN
+&kt CAPS   &caps_word      &kp LA(LC(LEFT))   &kp LA(TAB)  &kp LA(LC(RIGHT))      &none                                        &kp PAGE_DOWN       &kp LEFT             &kp DOWN      &kp RIGHT_ARROW  &kp INSERT  &kp ENTER
+&kp LSHFT  &kp KP_NUMLOCK  &kp LC(LS(PG_UP))  &kp LC(W)    &kp LC(LS(PAGE_DOWN))  &none         &none           &none          &kp LA(LEFT_ARROW)  &kp LA(RIGHT_ARROW)  &kp LC(LEFT)  &kp LC(RIGHT)    &kp GRAVE   &kp RIGHT_SHIFT
+                                                           &kp LCTRL              &kp LEFT_ALT  &kp LEFT_GUI    &kp RIGHT_GUI  &kp RIGHT_ALT       &kp RCTRL
             >;
 
             display-name = "MODE";
