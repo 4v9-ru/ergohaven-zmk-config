@@ -71,7 +71,7 @@
 &none      &none           &kp LC(PG_UP)      &kp LC(T)    &kp LC(PAGE_DOWN)      &none                               &kp PG_UP           &kp HOME             &kp UP        &kp END          &kp DELETE  &kp PRINTSCREEN
 &kt CAPS   &caps_word      &kp LA(LC(LEFT))   &kp LA(TAB)  &kp LA(LC(RIGHT))      &none                               &kp PAGE_DOWN       &kp LEFT             &kp DOWN      &kp RIGHT_ARROW  &kp INSERT  &kp ENTER
 &kp LSHFT  &kp KP_NUMLOCK  &kp LC(LS(PG_UP))  &kp LC(W)    &kp LC(LS(PAGE_DOWN))  &none       &none        &none      &kp LA(LEFT_ARROW)  &kp LA(RIGHT_ARROW)  &kp LC(LEFT)  &kp LC(RIGHT)    &kp GRAVE   &kp RIGHT_SHIFT
-                                                           &kp LCTRL              &kp DELETE  &kp SPACE    &kp ENTER  &kp BACKSPACE       &kp RCTRL
+                                                           &kp ESCAPE             &kp DELETE  &kp SPACE    &kp ENTER  &kp BACKSPACE       &kp RIGHT_ALT
             >;
 
             display-name = "MODE";
