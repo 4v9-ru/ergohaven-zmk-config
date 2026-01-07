@@ -77,7 +77,7 @@
             bindings = <
 &none      &none           &kp LC(PG_UP)      &kp LC(T)    &kp LC(PAGE_DOWN)      &none                               &kp PG_UP           &kp HOME             &kp UP        &kp END          &kp DELETE  &kp PRINTSCREEN
 &kt CAPS   &caps_word      &kp LA(LC(LEFT))   &kp LA(TAB)  &kp LA(LC(RIGHT))      &none                               &kp PAGE_DOWN       &kp LEFT             &kp DOWN      &kp RIGHT_ARROW  &kp INSERT  &kp ENTER
-&kp LSHFT  &kp KP_NUMLOCK  &kp LC(LS(PG_UP))  &kp LC(W)    &kp LC(LS(PAGE_DOWN))  &none       &none        &none      &kp LA(LEFT_ARROW)  &kp LA(RIGHT_ARROW)  &kp LC(LEFT)  &kp LC(RIGHT)    &kp GRAVE   &kp RIGHT_SHIFT
+&kp LSHFT  &kp KP_NUMLOCK  &kp LC(LS(PG_UP))  &kp LC(W)    &kp LC(LS(PAGE_DOWN))  &none       &tog_on 4    &none      &kp LA(LEFT_ARROW)  &kp LA(RIGHT_ARROW)  &kp LC(LEFT)  &kp LC(RIGHT)    &kp GRAVE   &kp RIGHT_SHIFT
                                                            &kp ESCAPE             &kp DELETE  &kp SPACE    &kp ENTER  &kp BACKSPACE       &kp RIGHT_ALT
             >;
 
@@ -108,10 +108,10 @@
 
         digits {
             bindings = <
-&kp F1      &kp F2            &kp F3            &kp F4            &kp F5            &kp F6                             &kp F7            &kp F8            &kp F9            &kp F10           &kp F11        &kp F12
-&kp N1      &kp NUMBER_2      &kp NUMBER_3      &kp NUMBER_4      &kp NUMBER_5      &kp NUMBER_6                       &kp NUMBER_7      &kp NUMBER_8      &kp NUMBER_9      &kp NUMBER_0      &kp MINUS      &kp EQUAL
+&kp F1      &kp F2            &kp F3            &kp F4            &kp F5            &kp F6                                &kp F7            &kp F8            &kp F9            &kp F10           &kp F11        &kp F12
+&kp N1      &kp NUMBER_2      &kp NUMBER_3      &kp NUMBER_4      &kp NUMBER_5      &kp NUMBER_6                          &kp NUMBER_7      &kp NUMBER_8      &kp NUMBER_9      &kp NUMBER_0      &kp MINUS      &kp EQUAL
 &kp LS(N1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)  &kp LS(NUMBER_5)  &kp LS(NUMBER_6)  &tog_on 4    &to 0  &kp LS(NUMBER_7)  &kp LS(NUMBER_8)  &kp LS(NUMBER_9)  &kp LS(NUMBER_0)  &kp LS(MINUS)  &kp LS(EQUAL)
-                                                                  &kp DOT           &kp SPACE         &none     &none  &kp SPACE         &kp DOT
+                                                                  &kp DOT           &kp SPACE         &none        &none  &kp SPACE         &kp DOT
             >;
 
             display-name = "DIGITS";
