@@ -97,10 +97,10 @@
 
         system {
             bindings = <
-&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_CLR                          &kp C_BRIGHTNESS_INC  &kp K_PLAY_PAUSE  &kp K_VOLUME_UP    &trans      &trans  &trans
-&out OUT_BLE  &none         &trans        &trans        &trans        &bt BT_CLR_ALL                      &kp C_BRIGHTNESS_DEC  &kp K_PREVIOUS    &kp K_VOLUME_DOWN  &kp K_NEXT  &trans  &trans
-&out OUT_USB  &trans        &trans        &trans        &trans        &trans          &kp F23    &kp F24  &trans                &kp LA(LC(M))     &kp K_MUTE         &trans      &trans  &trans
-                                                        &trans        &trans          &trans     &trans   &trans                &trans
+&bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_CLR                                     &kp C_BRIGHTNESS_INC  &kp K_PLAY_PAUSE   &kp K_VOLUME_UP    &none       &none  &none
+&out OUT_BLE    &out OUT_USB  &none         &none         &none         &bt BT_CLR_ALL                                 &kp C_BRIGHTNESS_DEC  &kp K_PREVIOUS     &kp K_VOLUME_DOWN  &kp K_NEXT  &none  &none
+&sk LEFT_SHIFT  &none         &none         &none         &none         &none           &kp F23         &kp F24        &none                 &kp LA(LC(M))      &kp K_MUTE         &none       &none  &sk RIGHT_SHIFT
+                                                          &sk LCTRL     &sk LEFT_ALT    &sk LEFT_GUI    &sk RIGHT_GUI  &sk RIGHT_ALT         &sk RIGHT_CONTROL
             >;
 
             display-name = "SYSTEM";
