@@ -90,7 +90,7 @@
                                                            &kp ESCAPE             &kp DELETE  &kp SPACE    &kp ENTER  &kp BACKSPACE       &kp RIGHT_ALT
             >;
 
-            display-name = "#0a6522 MODE";
+            display-name = "#7fff00 MODE";
         };
 
         mouse {
@@ -112,7 +112,7 @@
                                                            &skq LCTRL    &skq LEFT_ALT   &skq LEFT_GUI    &skq RIGHT_GUI  &skq RIGHT_ALT        &skq RIGHT_CONTROL
             >;
 
-            display-name = "#800000 SYSTEM";
+            display-name = "#ff8000 SYSTEM";
         };
 
         digits {
@@ -123,7 +123,7 @@
                                                                   &kp DOT           &kp SPACE         &none    &none  &kp SPACE         &kp DOT
             >;
 
-            display-name = "#7285a5 DIGITS";
+            display-name = "#d9dddc DIGITS";
         };
     };
 };
