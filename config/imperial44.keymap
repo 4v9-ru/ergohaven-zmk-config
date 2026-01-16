@@ -101,7 +101,7 @@
                                                      &kp LCTRL              &kp DELETE  &kp SPACE    &kp ENTER  &kp BACKSPACE   &kp RCTRL
             >;
 
-            display-name = "#febe00 MOUSE";
+            display-name = "#ffef00 MOUSE";
         };
 
         system {
@@ -112,7 +112,7 @@
                                                            &skq LCTRL    &skq LEFT_ALT   &skq LEFT_GUI    &skq RIGHT_GUI  &skq RIGHT_ALT        &skq RIGHT_CONTROL
             >;
 
-            display-name = "#ff8000 SYSTEM";
+            display-name = "#ff0800 SYSTEM";
         };
 
         digits {
