@@ -16,7 +16,7 @@
 };
 
 &caps_word {
-    continue-list = <UNDERSCORE MINUS BACKSPACE DELETE>;
+    continue-list = <UNDERSCORE MINUS BACKSPACE DELETE LEFT RIGHT>;
 };
 
 / {
