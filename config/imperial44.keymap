@@ -15,9 +15,7 @@
     quick-tap-ms = <200>;
 };
 
-&caps_word {
-    continue-list = <UNDERSCORE MINUS BACKSPACE DELETE LEFT RIGHT>;
-};
+&caps_word { continue-list = <UNDERSCORE MINUS BACKSPACE DELETE LEFT RIGHT>; };
 
 / {
     behaviors {
@@ -99,10 +97,10 @@
 
         mouse {
             bindings = <
-&none           &none  &kp LC(PG_UP)      &kp LC(T)  &kp LC(PAGE_DOWN)      &none                               &msc SCRL_UP    &msc SCRL_LEFT  &mmv MOVE_UP    &msc SCRL_RIGHT  &none  &none
-&to 0           &none  &mkp RCLK          &mkp MCLK  &mkp LCLK              &none                               &msc SCRL_DOWN  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &none  &none
-&kp LEFT_SHIFT  &none  &kp LS(LC(PG_UP))  &kp LC(W)  &kp LS(LC(PAGE_DOWN))  &none       &to 0        &none      &none           &mkp LCLK       &mkp MCLK       &mkp RCLK        &none  &kp RIGHT_SHIFT
-                                                     &kp LCTRL              &kp DELETE  &kp SPACE    &kp ENTER  &kp BACKSPACE   &kp RCTRL
+&none           &none  &kp LC(PG_UP)      &kp LC(T)  &kp LC(PAGE_DOWN)      &msc SCRL_UP                            &msc SCRL_UP    &msc SCRL_LEFT  &mmv MOVE_UP    &msc SCRL_RIGHT  &none  &none
+&to 0           &none  &mkp RCLK          &mkp MCLK  &mkp LCLK              &msc SCRL_DOWN                          &msc SCRL_DOWN  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &none  &none
+&kp LEFT_SHIFT  &none  &kp LS(LC(PG_UP))  &kp LC(W)  &kp LS(LC(PAGE_DOWN))  &none           &to 0        &none      &none           &mkp LCLK       &mkp MCLK       &mkp RCLK        &none  &kp RIGHT_SHIFT
+                                                     &kp LCTRL              &kp DELETE      &kp SPACE    &kp ENTER  &kp BACKSPACE   &kp RCTRL
             >;
 
             display-name = "#ffef00 MOUSE";
