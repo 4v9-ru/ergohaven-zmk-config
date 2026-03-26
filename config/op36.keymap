@@ -63,7 +63,7 @@
         };
 
         NUBS_COMBO {
-            bindings = <&kp NUBS>;
+            bindings = <&kp BACKSLASH>;
             key-positions = <8 9>;
         };
 
