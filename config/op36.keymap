@@ -89,6 +89,7 @@
                                           &kp BACKSPACE  &mo 1  &kp SPACE    &kp ENTER  &mo 2  &kp TAB
             >;
 
+            label = "base";
             display-name = "#00ccff BASE";
         };
 
@@ -100,7 +101,7 @@
                                       &trans     &trans      &trans    &trans  &mo 3            &trans
             >;
 
-            display-name = "Nav";
+            display-name = "mode";
             label = "#7fff00 MODE";
         };
 
@@ -112,8 +113,8 @@
                                                     &trans           &mo 3      &trans    &trans  &trans     &trans
             >;
 
-            display-name = "Symbols";
-            label = "#d9dddc DIGITS";
+            display-name = "#d9dddc DIGITS";
+            label = "digits";
         };
 
         system {
@@ -124,8 +125,8 @@
                                             &trans         &trans   &trans    &trans  &trans        &trans
             >;
 
-            display-name = "Adjust";
-            label = "#ff0800 SYSTEM";
+            display-name = "#ff0800 SYSTEM"";
+            label = "system";
         };
 
         mouse {
@@ -136,7 +137,8 @@
                           &trans  &trans  &trans    &trans  &trans  &trans
             >;
 
-            label = "#ffef00 MOUSE";
+            label = "mouse";
+            display-name = "#ffef00 MOUSE"; i
         };
     };
 };
