@@ -42,12 +42,12 @@
     combos {
         compatible = "zmk,combos";
 
-        kha {
+        LBKT_COMBO {
             bindings = <&kp LBKT>;
             key-positions = <6 7>;
         };
 
-        hrdsgn {
+        RBKT_COMBO {
             bindings = <&kp RBKT>;
             key-positions = <7 8>;
         };
