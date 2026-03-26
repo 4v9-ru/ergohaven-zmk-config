@@ -125,7 +125,7 @@
                                             &trans         &trans   &trans    &trans  &trans        &trans
             >;
 
-            display-name = "#ff0800 SYSTEM"";
+            display-name = "#ff0800 SYSTEM";
             label = "system";
         };
 
