@@ -140,8 +140,11 @@ include:
 #    snippet: studio-rpc-usb-uart
 #    cmake-args: -DCONFIG_ZMK_STUDIO=y
 #    artifact-name: imperial44_qube_ruen-ergohaven-zmk
-  - board: ergohaven
-    shield: imperial44_left_qube
+
+
+#  - board: ergohaven
+#    shield: imperial44_left_qube
+
 
 #  - board: ergohaven
 #    shield: trackball
