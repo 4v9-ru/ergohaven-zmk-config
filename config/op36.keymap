@@ -101,7 +101,7 @@
                                       &trans     &trans      &trans    &trans  &mo 3            &trans
             >;
 
-            display-name = #7fff00 MODE";
+            display-name = "#7fff00 MODE";
             label = "mode";
         };
 
