@@ -10,6 +10,8 @@
     require-prior-idle-ms = <125>;
 };
 
+&caps_word { continue-list = <UNDERSCORE MINUS BACKSPACE DELETE LEFT RIGHT>; };
+
 / {
     behaviors {
         hml: home_row_mod_left {
