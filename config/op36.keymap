@@ -109,10 +109,10 @@
 
         digits {
             bindings = <
-  &none           &kp LT          &kp EQUAL         &kp GT           &kp GRAVE                    &kp CARET  &kp LBKT         &kp UNDER        &kp RBKT        &none
-  &hml LGUI BSLH  &hml LALT LPAR  &hml LSHFT MINUS  &hml LCTRL RPAR  &kp PLUS                     &kp PRCNT  &hmr RCTRL LBRC  &hmr RSHFT SEMI  &hmr LALT RBRC  &hmr RGUI EXCL
-  &kp HASH        &kp STAR        &kp COLON         &kp FSLH         &none                        &none      &kp PIPE         &kp TILDE        &kp AMPS        &kp DLLR
-                                                    &trans           &mo 3      &trans    &trans  &trans     &trans
+  &kp F1            &kp F2            &kp F3                &kp F4              &to 0                            &kp N1         &kp N2     &kp N3   &kp N4  &kp N5
+  &hml LEFT_GUI F5  &hml LEFT_ALT F6  &hml LEFT_CONTROL F7  &hml LEFT_SHIFT F8  &to 3                            &kp N6         &kp N7     &kp N8   &kp N9  &kp N0
+  &kp F9            &kp F10           &kp F11               &kp F12             &to 4                            &kp MINUS      &kp EQUAL  &kp DOT  &none   &none
+                                                            &kp ESC             &kp DEL  &kp SPACE    &kp ENTER  &kp BACKSPACE  &kp TAB
             >;
 
             display-name = "#d9dddc DIGITS";
