@@ -78,6 +78,11 @@
             bindings = <&kp RSHFT>;
             key-positions = <28 29>;
         };
+
+        right_control_combo {
+            bindings = <&kp RIGHT_CONTROL>;
+            key-positions = <28 27>;
+        };
     };
 
     keymap {
