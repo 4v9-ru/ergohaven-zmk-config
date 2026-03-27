@@ -97,10 +97,10 @@
 
         mode {
             bindings = <
-  &kp N1         &kp N2    &kp N3     &kp N4     &kp N5                        &kp N6           &kp N7           &kp N8           &kp N9        &kp N0
-  &hml LGUI ESC  &kp LALT  &kp LSHFT  &kp LCTRL  &kp ENTER                     &kp PRINTSCREEN  &hmr RCTRL LEFT  &hmr RSHFT DOWN  &hmr LALT UP  &hmr RGUI RIGHT
-  &none          &kp HOME  &kp INS    &kp END    &kp DELETE                    &kp CAPS         &none            &kp PG_DN        &kp PG_UP     &none
-                                      &trans     &trans      &trans    &trans  &mo 3            &trans
+  &caps_word      &kp LC(PG_UP)      &kp LC(T)  &kp LC(PAGE_DOWN)  &to 2                            &kp N6           &kp N7           &kp N8           &kp N9        &kp N0
+  &kp CAPS        &kp LA(LC(LEFT))   &none      &kp LA(LC(RIGHT))  &to 3                            &kp PRINTSCREEN  &hmr RCTRL LEFT  &hmr RSHFT DOWN  &hmr LALT UP  &hmr RGUI RIGHT
+  &kp KP_NUMLOCK  &kp LS(LC(PG_UP))  &kp LC(W)  &kp LS(LC(PG_DN))  &to 4                            &kp CAPS         &none            &kp PG_DN        &kp PG_UP     &none
+                                                &kp ESC            &kp DEL  &kp SPACE    &kp ENTER  &kp BACKSPACE    &kp TAB
             >;
 
             display-name = "#7fff00 MODE";
