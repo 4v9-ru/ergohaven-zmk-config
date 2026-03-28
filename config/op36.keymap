@@ -126,10 +126,10 @@
 
         system {
             bindings = <
-  &bootloader  &kp F1        &kp F2         &kp F3         &to 2                     &bt BT_SEL 0  &bt BT_SEL 1         &bt BT_SEL 2       &bt BT_SEL 3        &bt BT_CLR
-  &kp LGUI     &hml LALT F5  &hml LSHFT F6  &hml LCTRL F7  &to 0                     &out OUT_BLE  &hmr RCTRL C_VOL_DN  &hmr RSHFT C_MUTE  &hmr LALT C_VOL_UP  &kp RGUI
-  &none        &kp F9        &kp F10        &kp F11        &to 4                     &out OUT_USB  &kp C_PREV           &kp C_PP           &kp C_NEXT          &studio_unlock
-                                            &trans         &trans  &trans    &trans  &trans        &trans
+  &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3    &bt BT_SEL 4                          &kp C_BRI_UP   &kp C_PP       &kp C_VOLUME_UP  &none       &none
+  &out OUT_BLE    &out OUT_USB  &none         &bt BT_CLR_ALL  &bt BT_CLR                            &kp C_BRI_DN   &kp C_PREV     &kp C_VOL_DN     &kp C_NEXT  &none
+  &kp LEFT_SHIFT  &none         &none         &none           &kp F23                               &kp F24        &kp LA(LC(M))  &kp C_MUTE       &none       &kp RIGHT_SHIFT
+                                              &kp ESC         &kp DEL       &kp SPACE    &kp ENTER  &kp BACKSPACE  &kp TAB
             >;
 
             display-name = "#ff0800 SYSTEM";
