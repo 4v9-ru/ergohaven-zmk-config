@@ -102,10 +102,10 @@
 
         mode {
             bindings = <
-  &caps_word          &kp LC(PG_UP)               &kp LC(T)               &kp LC(PAGE_DOWN)              &to 2                            &kp PG_UP      &kp HOME               &kp UP                   &kp END               &kp PSCRN
-  &hml LEFT_GUI CAPS  &hml LEFT_ALT LA(LC(LEFT))  &hml LEFT_GUI LC(HOME)  &hml LEFT_SHIFT LA(LC(RIGHT))  &to 3                            &kp PG_DN      &hmr RIGHT_SHIFT LEFT  &hmr RIGHT_CONTROL DOWN  &hmr RIGHT_ALT RIGHT  &hmr RIGHT_GUI INS
-  &kp KP_NUMLOCK      &kp LS(LC(PG_UP))           &kp LC(W)               &kp LS(LC(PG_DN))              &to 4                            &kp LA(LEFT)   &kp LA(RIGHT)          &kp LC(LEFT)             &kp LC(RIGHT)         &kp GRAVE
-                                                                          &kp ESC                        &kp DEL  &kp SPACE    &kp ENTER  &kp BACKSPACE  &kp TAB
+  &caps_word          &kp LC(PG_UP)               &kp LC(T)                   &kp LC(PAGE_DOWN)              &to 2                            &kp PG_UP      &kp HOME               &kp UP                   &kp END               &kp PSCRN
+  &hml LEFT_GUI CAPS  &hml LEFT_ALT LA(LC(LEFT))  &hml LEFT_CONTROL LC(HOME)  &hml LEFT_SHIFT LA(LC(RIGHT))  &to 3                            &kp PG_DN      &hmr RIGHT_SHIFT LEFT  &hmr RIGHT_CONTROL DOWN  &hmr RIGHT_ALT RIGHT  &hmr RIGHT_GUI INS
+  &kp KP_NUMLOCK      &kp LS(LC(PG_UP))           &kp LC(W)                   &kp LS(LC(PG_DN))              &to 4                            &kp LA(LEFT)   &kp LA(RIGHT)          &kp LC(LEFT)             &kp LC(RIGHT)         &kp GRAVE
+                                                                              &kp ESC                        &kp DEL  &kp SPACE    &kp ENTER  &kp BACKSPACE  &kp TAB
             >;
 
             display-name = "#7fff00 MODE";
@@ -116,7 +116,7 @@
             bindings = <
   &kp F1            &kp F2            &kp F3                &kp F4              &to 0                            &kp N1         &kp N2               &kp N3                 &kp N4             &kp N5
   &hml LEFT_GUI F5  &hml LEFT_ALT F6  &hml LEFT_CONTROL F7  &hml LEFT_SHIFT F8  &to 3                            &kp N6         &hmr RIGHT_SHIFT N7  &hmr RIGHT_CONTROL N8  &hmr RIGHT_ALT N9  &hmr RIGHT_GUI N0
-  &kp F9            &kp F10           &kp F11               &kp F12             &to 4                            &kp MINUS      &kp EQUAL            &kp DOT                &none              &none
+  &kp F9            &kp F10           &kp F11               &kp F12             &to 4                            &kp MINUS      &kp EQUAL            &kp DOT                &kp LEFT_BRACKET   &kp RIGHT_BRACKET
                                                             &kp ESC             &kp DEL  &kp SPACE    &kp ENTER  &kp BACKSPACE  &kp TAB
             >;
 
