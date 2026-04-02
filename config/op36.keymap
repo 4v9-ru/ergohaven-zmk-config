@@ -46,44 +46,7 @@
         };
     };
 
-    combos {
-        compatible = "zmk,combos";
-
-        LBKT_COMBO {
-            bindings = <&kp LBKT>;
-            key-positions = <6 7>;
-        };
-
-        RBKT_COMBO {
-            bindings = <&kp RBKT>;
-            key-positions = <7 8>;
-        };
-
-        LSHIFT_COMBO {
-            bindings = <&kp LSHFT>;
-            key-positions = <20 21>;
-        };
-
-        NUBS_COMBO {
-            bindings = <&kp BACKSLASH>;
-            key-positions = <8 9>;
-        };
-
-        SQT_COMBO {
-            bindings = <&kp SQT>;
-            key-positions = <18 19>;
-        };
-
-        RSHIFT_COMBO {
-            bindings = <&kp RSHFT>;
-            key-positions = <28 29>;
-        };
-
-        right_control_combo {
-            bindings = <&kp RIGHT_CONTROL>;
-            key-positions = <28 27>;
-        };
-    };
+    combos { compatible = "zmk,combos"; };
 
     keymap {
         compatible = "zmk,keymap";
