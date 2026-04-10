@@ -104,7 +104,7 @@
             bindings = <
   &caps_word      &kp LC(PG_UP)      &kp LC(T)     &kp LC(PAGE_DOWN)  &to 2                            &kp PG_UP      &kp HOME   &kp UP    &kp END           &kp PSCRN
   &kp CAPS        &kp LA(LC(LEFT))   &kp LC(HOME)  &kp LA(LC(RIGHT))  &to 3                            &kp PG_DN      &kp LEFT   &kp DOWN  &kp RIGHT         &kp INS
-  &kp KP_NUMLOCK  &kp LS(LC(PG_UP))  &kp LC(W)     &kp LS(LC(PG_DN))  &to 4                            &none          &kp COMMA  &kp DOT   &kp SINGLE_QUOTE  &kp GRAVE
+  &kp KP_NUMLOCK  &kp LS(LC(PG_UP))  &kp LC(W)     &kp LS(LC(PG_DN))  &to 4                            &kp BACKSLASH  &kp COMMA  &kp DOT   &kp SINGLE_QUOTE  &kp GRAVE
                                                    &kp ESC            &kp DEL  &kp SPACE    &kp ENTER  &kp BACKSPACE  &kp TAB
             >;
 
@@ -114,10 +114,10 @@
 
         digits {
             bindings = <
-  &kp F1            &kp F2            &kp F3                &kp F4              &to 0                  &kp N1         &kp N2               &kp N3                 &kp N4             &kp N5
-  &hml LEFT_GUI F5  &hml LEFT_ALT F6  &hml LEFT_CONTROL F7  &hml LEFT_SHIFT F8  &to 3                  &kp N6         &hmr RIGHT_SHIFT N7  &hmr RIGHT_CONTROL N8  &hmr RIGHT_ALT N9  &hmr RIGHT_GUI N0
-  &kp F9            &kp F10           &kp F11               &kp F12             &to 4                  &kp MINUS      &kp EQUAL            &kp DOT                &kp LEFT_BRACKET   &kp RIGHT_BRACKET
-                                                            &none               &none  &none    &none  &kp BACKSLASH  &kp SINGLE_QUOTE
+  &kp F1            &kp F2            &kp F3                &kp F4              &to 0                            &kp N1         &kp N2               &kp N3                 &kp N4             &kp N5
+  &hml LEFT_GUI F5  &hml LEFT_ALT F6  &hml LEFT_CONTROL F7  &hml LEFT_SHIFT F8  &to 3                            &kp N6         &hmr RIGHT_SHIFT N7  &hmr RIGHT_CONTROL N8  &hmr RIGHT_ALT N9  &hmr RIGHT_GUI N0
+  &kp F9            &kp F10           &kp F11               &kp F12             &to 4                            &kp MINUS      &kp EQUAL            &kp DOT                &kp LEFT_BRACKET   &kp RIGHT_BRACKET
+                                                            &kp ESC             &kp DEL  &kp SPACE    &kp ENTER  &kp BACKSPACE  &kp TAB
             >;
 
             display-name = "#d9dddc DIGITS";
