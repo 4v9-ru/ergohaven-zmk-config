@@ -44,6 +44,20 @@
             hold-trigger-key-positions = <0 1 2 3 4 10 11 12 13 14 20 21 22 23 24 30 31 32>;
             hold-trigger-on-release;
         };
+
+        td_z: td_z {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TD_Z";
+            #binding-cells = <0>;
+            bindings = <&kp Z>, <&kp LEFT_SHIFT>;
+        };
+
+        td_slash: td_slash {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TD_SLASH";
+            #binding-cells = <0>;
+            bindings = <&kp SLASH>;
+        };
     };
 
     combos {
