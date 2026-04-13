@@ -102,10 +102,10 @@
 
         mode {
             bindings = <
-  &caps_word      &kp LC(PG_UP)      &kp LC(T)  &kp LC(PAGE_DOWN)  &to 2                                  &kp PG_UP      &kp HOME    &kp UP    &kp END           &kp PSCRN
-  &kp CAPS        &kp LA(LC(LEFT))   &kp TAB    &kp LA(LC(RIGHT))  &to 3                                  &kp PG_DN      &kp LEFT    &kp DOWN  &kp RIGHT         &kp INS
-  &kp KP_NUMLOCK  &kp LS(LC(PG_UP))  &kp LC(W)  &kp LS(LC(PG_DN))  &to 4                                  &kp BACKSLASH  &kp COMMA   &kp DOT   &kp SINGLE_QUOTE  &kp GRAVE
-                                                &kp LCTRL          &kp LEFT_ALT  &kp LSHFT    &kp RSHIFT  &kp RALT       &kp RSHIFT
+  &caps_word      &kp LC(PG_UP)      &kp LC(T)  &kp LC(PAGE_DOWN)  &to 2                                  &kp PG_UP      &kp HOME   &kp UP    &kp END           &kp PSCRN
+  &kp CAPS        &kp LA(LC(LEFT))   &kp TAB    &kp LA(LC(RIGHT))  &to 3                                  &kp PG_DN      &kp LEFT   &kp DOWN  &kp RIGHT         &kp INS
+  &kp KP_NUMLOCK  &kp LS(LC(PG_UP))  &kp LC(W)  &kp LS(LC(PG_DN))  &to 4                                  &kp BACKSLASH  &kp COMMA  &kp DOT   &kp SINGLE_QUOTE  &kp GRAVE
+                                                &kp LCTRL          &kp LEFT_ALT  &kp LSHFT    &kp RSHIFT  &kp RALT       &kp RCTRL
             >;
 
             display-name = "#7fff00 MODE";
