@@ -102,10 +102,10 @@
 
         mode {
             bindings = <
-  &caps_word      &kp LC(PG_UP)      &kp LC(T)  &kp LC(PAGE_DOWN)  &to 2                                  &kp PG_UP      &kp HOME   &kp UP    &kp END           &kp PSCRN
-  &kp CAPS        &kp LA(LC(LEFT))   &kp TAB    &kp LA(LC(RIGHT))  &to 3                                  &kp PG_DN      &kp LEFT   &kp DOWN  &kp RIGHT         &kp INS
-  &kp KP_NUMLOCK  &kp LS(LC(PG_UP))  &kp LC(W)  &kp LS(LC(PG_DN))  &to 4                                  &kp BACKSLASH  &kp COMMA  &kp DOT   &kp SINGLE_QUOTE  &kp GRAVE
-                                                &kp LCTRL          &kp LEFT_ALT  &kp LSHFT    &kp RSHIFT  &kp RALT       &kp RCTRL
+  &caps_word      &kp LC(PG_UP)      &kp LC(T)  &kp LC(PAGE_DOWN)  &to 2                               &kp PG_UP      &kp HOME       &kp UP    &kp END           &kp PSCRN
+  &kp CAPS        &kp LA(LC(LEFT))   &kp TAB    &kp LA(LC(RIGHT))  &to 3                               &kp PG_DN      &kp LEFT       &kp DOWN  &kp RIGHT         &kp INS
+  &kp KP_NUMLOCK  &kp LS(LC(PG_UP))  &kp LC(W)  &kp LS(LC(PG_DN))  &to 4                               &kp BACKSLASH  &kp COMMA      &kp DOT   &kp SINGLE_QUOTE  &kp GRAVE
+                                                &kp LEFT_ALT       &kp LCTRL  &kp LSHFT    &kp RSHIFT  &kp RCTRL      &kp RIGHT_ALT
             >;
 
             display-name = "#7fff00 MODE";
@@ -126,10 +126,10 @@
 
         system {
             bindings = <
-  &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &to 2                            &kp C_BRI_UP   &kp C_PP       &kp C_VOLUME_UP  &none       &kp F24
-  &bt BT_SEL 0    &none         &none         &bt BT_CLR      &to 0                            &kp C_BRI_DN   &kp C_PREV     &kp C_VOL_DN     &kp C_NEXT  &kp F23
-  &kp LEFT_SHIFT  &out OUT_BLE  &out OUT_USB  &bt BT_CLR_ALL  &to 4                            &none          &kp LA(LC(M))  &kp C_MUTE       &none       &kp RIGHT_SHIFT
-                                              &kp ESC         &kp DEL  &kp SPACE    &kp ENTER  &kp BACKSPACE  &kp TAB
+  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &to 2                                         &kp C_BRI_UP  &kp C_PP       &kp C_VOLUME_UP  &none       &kp F24
+  &bt BT_SEL 0  &none         &none         &bt BT_CLR      &to 0                                         &kp C_BRI_DN  &kp C_PREV     &kp C_VOL_DN     &kp C_NEXT  &kp F23
+  &sk LEFT_GUI  &out OUT_BLE  &out OUT_USB  &bt BT_CLR_ALL  &to 4                                         &none         &kp LA(LC(M))  &kp C_MUTE       &none       &sk RIGHT_GUI
+                                            &sk LEFT_ALT    &sk LCTRL  &sk LEFT_SHIFT    &sk RIGHT_SHIFT  &sk RCTRL     &sk RIGHT_ALT
             >;
 
             display-name = "#ff0800 SYSTEM";
