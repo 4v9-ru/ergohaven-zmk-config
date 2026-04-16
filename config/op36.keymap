@@ -15,6 +15,12 @@
     require-prior-idle-ms = <125>;
 };
 
+&sk {
+    release-after-ms = <5000>;
+    quick-release;
+    lazy;
+};
+
 &caps_word { continue-list = <UNDERSCORE MINUS BACKSPACE DELETE LEFT RIGHT>; };
 
 / {
