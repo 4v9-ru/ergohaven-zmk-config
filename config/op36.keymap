@@ -18,7 +18,6 @@
 &sk {
     release-after-ms = <5000>;
     quick-release;
-    lazy;
 };
 
 &caps_word { continue-list = <UNDERSCORE MINUS BACKSPACE DELETE LEFT RIGHT>; };
