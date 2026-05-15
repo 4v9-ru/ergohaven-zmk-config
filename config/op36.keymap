@@ -131,7 +131,7 @@
 
         system {
             bindings = <
-  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &to 2                                         &kp C_BRI_UP  &kp C_PP       &kp C_VOLUME_UP  &none       &kp F24
+  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &to 2                                         &kp C_BRI_UP  &kp C_PP       &kp C_VOLUME_UP  &kp C_STOP  &kp F24
   &bt BT_SEL 0  &none         &none         &bt BT_CLR      &to 0                                         &kp C_BRI_DN  &kp C_PREV     &kp C_VOL_DN     &kp C_NEXT  &kp F23
   &sk LEFT_GUI  &out OUT_BLE  &out OUT_USB  &bt BT_CLR_ALL  &to 4                                         &none         &kp LA(LC(M))  &kp C_MUTE       &none       &sk RIGHT_GUI
                                             &sk LEFT_ALT    &sk LCTRL  &sk LEFT_SHIFT    &sk RIGHT_SHIFT  &sk RCTRL     &sk RIGHT_ALT
