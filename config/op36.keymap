@@ -107,10 +107,10 @@
 
         mode {
             bindings = <
-  &kp ESC         &kp LC(PG_UP)      &kp LC(T)  &kp LC(PAGE_DOWN)  &to 2                               &kp PG_UP  &kp HOME          &kp UP     &kp END    &kp BACKSLASH
-  &caps_word      &kp LA(LC(LEFT))   &kp TAB    &kp LA(LC(RIGHT))  &to 3                               &kp PG_DN  &kp LEFT          &kp DOWN   &kp RIGHT  &kp INS
-  &kp LEFT_SHIFT  &kp LS(LC(PG_UP))  &kp LC(W)  &kp LS(LC(PG_DN))  &to 4                               &kp GRAVE  &kp SINGLE_QUOTE  &kp COMMA  &kp DOT    &kp RIGHT_SHIFT
-                                                &kp LEFT_ALT       &kp LCTRL  &kp LSHFT    &kp RSHIFT  &kp RCTRL  &kp RIGHT_ALT
+  &kp ESC         &kp LC(PG_UP)      &kp LC(T)  &kp LC(PAGE_DOWN)  &to 2                                     &kp PG_UP  &kp HOME          &kp UP     &kp END    &kp BACKSLASH
+  &caps_word      &kp LA(LC(LEFT))   &kp TAB    &kp LA(LC(RIGHT))  &to 3                                     &kp PG_DN  &kp LEFT          &kp DOWN   &kp RIGHT  &kp INS
+  &kp LEFT_SHIFT  &kp LS(LC(PG_UP))  &kp LC(W)  &kp LS(LC(PG_DN))  &to 4                                     &kp GRAVE  &kp SINGLE_QUOTE  &kp COMMA  &kp DOT    &kp RIGHT_SHIFT
+                                                &kp LEFT_GUI       &kp LCTRL  &kp LEFT_ALT    &kp RIGHT_ALT  &kp RCTRL  &kp RGUI
             >;
 
             display-name = "#7fff00 MODE";
